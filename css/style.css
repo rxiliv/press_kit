@@ -15,7 +15,6 @@ html {
 }
 
 body {
-    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,7 +39,6 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
     height: 64px;
     padding: 12px 32px 12px 32px;
     background-color: var(--green-d);
@@ -56,7 +54,6 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
 }
 
 .nav-list {
@@ -82,21 +79,26 @@ nav {
 }
 
 main {
+    display: flex;
     flex: 1;
-}
-
-.home-main {
-    padding: 128px 256px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 128px;
+    gap: 128px;
 }
 
 section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding: 64px;
     background-color: var(--green-l);
 }
 
-.home-section {
+.bubble-section {
+    max-width: fit-content;
+    max-height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,6 +109,7 @@ section {
 }
 
 .page-button {
+    max-width: fit-content;
     font-size: 20px;
     margin-top: 32px;
     padding: 8px 16px;
@@ -117,7 +120,7 @@ section {
     cursor: pointer;
 }
 
-.button-link {
+.page-button-link {
     text-decoration: none;
     font-weight: bold;
     color: var(--green-d);
@@ -152,4 +155,23 @@ h6 {
     background-color: #00000000;
     border: none;
     font-size: 12px;
+    cursor: pointer;
+}
+
+.footer-button-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--yellow1);
+}
+
+.split-container {
+    display: flex;
+}
+
+.left-half-container {
+    flex: 1;
+}
+
+.right-half-container {
+    flex: 1;
 }
