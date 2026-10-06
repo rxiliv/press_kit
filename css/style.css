@@ -72,6 +72,10 @@ nav {
     color: var(--yellow1);
 }
 
+.nav-list li a:hover {
+    color: var(--green-l);
+}
+
 .title-block {
     display: flex;
     flex-direction: column;
@@ -126,6 +130,10 @@ section {
     color: var(--green-d);
 }
 
+.page-button:hover {
+    background-color: var(--yellow2);
+}
+
 h2 {
     font-size: 32px;
     color:var(--yellow2);
@@ -162,6 +170,10 @@ h6 {
     text-decoration: none;
     font-weight: bold;
     color: var(--yellow1);
+}
+
+.footer-button-link:hover {
+    color: var(--yellow2);
 }
 
 .split-container {
