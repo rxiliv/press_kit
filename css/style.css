@@ -115,12 +115,14 @@ section {
 .page-button {
     max-width: fit-content;
     font-size: 20px;
-    margin-top: 32px;
+    margin-top: 16px;
     padding: 8px 16px;
     background-color: var(--yellow1);
     color: var(--green-d);
     border: none;
     border-radius: 4px;
+    font-weight: bold;
+    color: var(--green-d);
     cursor: pointer;
 }
 
@@ -143,6 +145,64 @@ h2 {
 h3 {
     font-style: oblique;
     color: var(--yellow1);
+}
+
+.split-container {
+    display: flex;
+}
+
+.left-half-container {
+    flex: 1;
+}
+
+.right-half-container {
+    flex: 1;
+}
+
+table {
+    margin-top: 16px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: var(--green-d);
+    color: var(--yellow2);
+}
+
+tbody {
+    background-color: var(--green);
+}
+
+th, td {
+    padding: 8px 16px;
+    border-bottom: 1px solid var(--green-d);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--green);
+    padding: 16px 32px;
+    border-radius: 8px;
+    margin-top: 32px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-space {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 8px;
+}
+
+.form-checkbox {
+    min-width: fit-content;
+    margin-top: 8px;
 }
 
 footer {
@@ -174,16 +234,4 @@ h6 {
 
 .footer-button-link:hover {
     color: var(--yellow2);
-}
-
-.split-container {
-    display: flex;
-}
-
-.left-half-container {
-    flex: 1;
-}
-
-.right-half-container {
-    flex: 1;
 }

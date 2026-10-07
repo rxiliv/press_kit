@@ -39,21 +39,21 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th> Steam </th>
-                            <th> 32/10/2026 </th>
-                            <th> 2,99€ </th>
+                            <td> Steam </td>
+                            <td> 32/10/2026 </td>
+                            <td> 2,99€ </td>
                         </tr>
 
                         <tr>
-                            <th> Epic Games </th>
-                            <th> 33/10/2026 </th>
-                            <th> 2,99€ </th>
+                            <td> Epic Games </td>
+                            <td> 33/10/2026 </td>
+                            <td> 2,99€ </td>
                         </tr>
 
                         <tr>
-                            <th> Qualche Sito Pirata </th>
-                            <th> 32/10/2026 </th>
-                            <th> 0,00€ </th>
+                            <td> Qualche Sito Pirata </td>
+                            <td> 32/10/2026 </td>
+                            <td> 0,00€ </td>
                         </tr>
                     </tbody>
                 </table>
@@ -73,27 +73,27 @@
                 </div>
 
                 <form>
-                    <label for="name"> Nome: </label>
-                    <input type="text" name="name" id="name" required>
+                    <div class="form-space">
+                        <label for="name"> Nome: </label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
                     
-                    <br>
-                    
-                    <label for="surname"> Cognome: </label>
-                    <input type="text" name="surname" id="surname" required>
-                    
-                    <br>
-                    
-                    <label for="email"> Email: </label>
-                    <input type="email" name="email" id="email" required>
+                    <div class="form-space">
+                        <label for="surname"> Cognome: </label>
+                        <input type="text" name="surname" id="surname" required>
+                    </div>
 
-                    <br>
+                    <div class="form-space">
+                        <label for="email"> Email: </label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
 
-                    <label for="newsletter"> Voglio iscrivermi alla Newsletter </label>
-                    <input type="checkbox" name="newsletter" id="newsletter">
+                    <div class="form-checkbox">
+                        <input type="checkbox" name="newsletter" id="newsletter">
+                        <label for="newsletter"> Voglio iscrivermi alla Newsletter </label>
+                    </div>
 
-                    <br>
-
-                    <input type="submit" value="Invia">
+                    <input class="page-button" type="submit" value="Invia">
                 </form>
             </section>
         </main>
