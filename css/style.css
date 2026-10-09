@@ -50,6 +50,10 @@ h1 {
     color: var(--yellow2);
 }
 
+a {
+    text-decoration: none;
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -67,7 +71,6 @@ nav {
 
 .nav-list li a {
     font-size: 16px;
-    text-decoration: none;
     font-weight: bold;
     color: var(--yellow1);
 }
@@ -127,7 +130,6 @@ section {
 }
 
 .page-button-link {
-    text-decoration: none;
     font-weight: bold;
     color: var(--green-d);
 }
@@ -205,6 +207,30 @@ label {
     margin-top: 8px;
 }
 
+.accordion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 64px;
+    border-radius: 16px;
+    background-color: var(--green-l);
+}
+
+details {
+    background-color: var(--green);
+    color: var(--yellow2);
+    font-weight: bold;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+details p {
+    color: white;
+    font-weight: lighter;
+}
+
 footer {
     display: flex;
     align-items: center;
@@ -227,7 +253,6 @@ h6 {
 }
 
 .footer-button-link {
-    text-decoration: none;
     font-weight: bold;
     color: var(--yellow1);
 }
