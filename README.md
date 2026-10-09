@@ -1,15 +1,13 @@
 # Press Kit - Esercitazione Trasversale Informatica - TPSI
 
-## Autore
-- **Nome:** Gioia
-- **Cognome:** Chen
-- **Classe:** 5BT-i
+### Gioia Chen - 5BT-i
 
 ## Esercizio
 **Traccia scelta:** A (Press Kit)
 
 ## Elenco Pagine
+- Homepage
 - Presentazione
 - Panoramica dei Personaggi
 - Preordine
-- Domande Frequenti
+- Domande Frequenti (FAQ)
