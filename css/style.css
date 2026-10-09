@@ -165,7 +165,7 @@ h3 {
 .right-half-container {
     flex: 2;
     width: 480px;
-    
+
 }
 
 img {
@@ -273,4 +273,26 @@ h6 {
 
 .footer-button-link:hover {
     color: var(--yellow2);
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        height: 64px;
+        padding: 8px;
+    }
+
+    h1 {
+        font-size: 32px;
+        margin-bottom: 0px;
+    }
+
+    .nav-list {
+        gap: 16px;
+    }
+
+    .nav-list li a {
+        font-size: 12px;
+    }
 }
